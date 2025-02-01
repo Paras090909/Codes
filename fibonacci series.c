@@ -17,7 +17,7 @@ int n;
 printf("enter the steps upto which fibonacci series want\n");
 scanf("%d", &n);
 if(n<=0){
-    printf("fibonacci series of negative number is not possible\n");
+    printf("please enter a positive number\n");
  }
 else{
     fibseries(n);
